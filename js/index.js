@@ -54,6 +54,11 @@ function submitForm(event) {
     
     var form = event.target;
     var formData = new FormData(form);
+
+    // Afficher le message "Envoi en cours..."
+    document.getElementById('waitingMessage').innerText = 'Envoi en cours...';
+    document.getElementById('successMessage').innerText = ''; // Effacer les messages de succès précédents
+    document.getElementById('errorMessage').innerText = ''; // Effacer les messages d'erreur précédents
     
     fetch('https://script.google.com/macros/s/AKfycbwWWcoqSOTzOiWlM2MrCWiyv6Hn5kLm4b4DnfQGpW4HhQwsy5AB3pM3NgWaBINitOff/exec', {
         method: 'POST',
@@ -76,6 +81,10 @@ function submitForm(event) {
         // Afficher un message d'erreur générique
         document.getElementById('errorMessage').innerText = 'Une erreur est survenue. Veuillez réessayer.';
         document.getElementById('successMessage').innerText = ''; // Effacer les messages de succès précédents
+    })
+    .finally(() => {
+        // Cacher le message "Envoi en cours..." une fois la réponse reçue (succès ou erreur)
+        document.getElementById('waitingMessage').innerText = '';
     });
 }
 
