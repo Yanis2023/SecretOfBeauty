@@ -88,6 +88,7 @@
 
 body {
   margin: 0;
+  overflow-x: hidden;
   /* font-family: "Tangerine", cursive; */
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
@@ -11130,8 +11131,8 @@ header.masthead .masthead-heading {
 }
 
 .rounded-image {
-  width: 400px;  /* Ajustez la taille selon vos besoins */
-  height: 400px; /* Ajustez la taille selon vos besoins */
+  width: 300px;  /* Ajustez la taille selon vos besoins */
+  height: 300px; /* Ajustez la taille selon vos besoins */
   border-radius: 50%; /* Pour faire l'image ronde */
   object-fit: cover; /* Pour s'assurer que l'image s'ajuste bien à l'intérieur du cercle */
   margin-bottom: 7rem;
@@ -11176,7 +11177,7 @@ header.masthead .masthead-heading {
 #portfolio h2{
   color: #975660;
   margin-top: 1rem;
-  font-size: 7rem;
+  font-size: 6.5rem;
 }
 
 #portfolio h3{
@@ -11309,7 +11310,7 @@ header.masthead .masthead-heading {
 #about h2{
   color: #975660;
   margin-top: 1rem;
-  font-size: 7rem;
+  font-size: 6.5rem;
 }
 
 #about h3{
