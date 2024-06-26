@@ -1,0 +1,10 @@
+#F9CDCA : couleur items navbar et background service
+#975660 : écriture logo et fond navbar
+#fffdfe : blanc logo
+#fbe3e3 : rose plus pale background page
+#f1b6b4 : couleur items navbar hover couleur cercle services
+#f7cbcb : rose navbar et titre
+
+secretofbeauty44@gmail.com
+18I4ch18-18
+
