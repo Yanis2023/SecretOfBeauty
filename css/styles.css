@@ -8147,7 +8147,7 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: #975660 !important;
   font-family: "Tangerine", cursive;
-  font-size: 3.25rem;
+  font-size: 3rem;
 }
 
 .text-modal-p {
@@ -11305,7 +11305,7 @@ header.masthead .masthead-heading {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 15px;
   margin-top: 2rem;
-  font-size: 4rem;
+  /* font-size: 4rem; */
 }
 
 #about h4{
