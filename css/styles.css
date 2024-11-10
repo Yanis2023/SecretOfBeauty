@@ -5,6 +5,26 @@
   src: url('../fonts/Tangerine-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'BrittanyAmastry';
+  src: url('../fonts/BrittanyAmastry.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('../fonts/Cinzel-Regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CinzelDecorativeRegular';
+  src: url('../fonts/CinzelDecorative-Regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Argue';
+  src: url('../fonts/Argue.otf') format('truetype');
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -104,10 +124,18 @@ hr {
   opacity: 0.25;
 }
 
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+h1 .h1 {
+  font-family: 'BrittanyAmastry', sans-serif;
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: 'Cinzel', serif;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -157,6 +185,7 @@ h6, .h6 {
 }
 
 p {
+  font-family: 'Argue', sans-serif;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -8123,8 +8152,8 @@ textarea.form-control-lg {
   color: #975660 !important;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 15px;
-  font-family: "Tangerine", cursive;
-  font-size: 3rem;
+  font-family: 'Argue', serif;
+  font-size: 2rem;
 }
 
 .text-muted2 {
@@ -8132,21 +8161,21 @@ textarea.form-control-lg {
   color: #975660 !important;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 15px;
-  font-family: "Tangerine", cursive;
+  font-family: 'Tangerine', serif;
   font-size: 2.5rem;
 }
 
 .text-card {
   --bs-text-opacity: 1;
   color: #975660 !important;
-  font-family: "Tangerine", cursive;
-  font-size: 3rem;
+  font-family: 'Argue', serif;
+  font-size: 2rem;
 }
 
 .text-produits {
   --bs-text-opacity: 1;
   color: #975660 !important;
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-size: 3rem;
 }
 
@@ -8154,7 +8183,7 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   background-color: rgba(255, 255, 255, 0.5);
   color: #975660 !important;
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-size: 4rem;
 }
 
@@ -10951,20 +10980,20 @@ p {
   font-weight: 1000;
   margin-top: 0;
   margin-bottom: 1rem;
-  font-family: "Tangerine", cursive;
+  font-family: 'CinzelDecorativeRegular', serif;
   font-style: normal;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 3rem;
   font-weight: 400;
   font-style: italic;
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   margin-bottom: 4rem;
   font-style: normal;
 }
 
 .tangerine-bold {
-  font-family: "Tangerine", cursive;
+  font-family: 'Cinzel', serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -10978,7 +11007,7 @@ p {
   padding: 1.25rem 2.5rem;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-size: 3rem;
   font-weight: 700;
   background-color: #f1b6b4;
@@ -10996,7 +11025,7 @@ p {
 .btn-xl-contact {
   padding: 1.25rem 2.5rem;
   margin-bottom: 4rem;
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-size: 3rem;
   font-weight: 700;
   background-color: #f1b6b4;
@@ -11028,21 +11057,21 @@ p {
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 2rem;
-  font-family: "Tangerine", cursive;
+  font-family: 'BrittanyAmastry', sans-serif;
   font-weight: 700;
 }
 #mainNav .navbar-brand {
   color: #F9CDCA;
   font-weight: 900; 
   letter-spacing: 0.0625em;
-  font-family: "Tangerine";
+  font-family: 'BrittanyAmastry', sans-serif;
   font-size: 2rem;
 }
 #mainNav .navbar-brand img {
   height: 1.5rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: "Tangerine", cursive;
+  font-family: 'Tangerine', serif;
   font-size: 2.5rem;
   color: #F9CDCA; /* couleur items navbar */
   /* letter-spacing: 0.0625em; */
@@ -11090,7 +11119,7 @@ p {
 }
 
 header.masthead {
-  font-family: "Tangerine", cursive;
+  font-family: 'BrittanyAmastry', sans-serif;
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -11106,14 +11135,14 @@ header.masthead .masthead-subheading {
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: "Tangerine", cursive;
+  font-family: 'BrittanyAmastry', sans-serif;
 }
 header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
-  font-family: "Tangerine", cursive;
+  font-family: 'BrittanyAmastry', sans-serif;
   color : #f1b6b4;/* couleur du titre page index*/ 
 }
 
@@ -11237,13 +11266,13 @@ header.masthead .masthead-heading {
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-weight: 700;
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
 }
 
 .portfolio-modal .modal-dialog {
@@ -11269,7 +11298,7 @@ header.masthead .masthead-heading {
 .portfolio-modal .modal-content p.item-intro {
   font-style: italic;
   margin-bottom: 2rem;
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
 }
 
 .portfolio-modal .modal-content p {
@@ -11569,7 +11598,7 @@ section#contact form#contactForm .form-group textarea {
     padding: 1.25rem; /* Espacement à l'intérieur des inputs */
     width: 100%; /* Largeur des inputs */
     transition: border-bottom-color 0.3s, background-color 0.3s, color 0.3s; /* Transition de couleur de la bordure inférieure */
-    font-family: "Tangerine", cursive; /* Police de caractères */
+    font-family: 'Argue', serif; /* Police de caractères */
     font-size: 2rem; /* Taille de la police */
 }
 
@@ -11608,26 +11637,26 @@ section#contact form#contactForm .form-control:focus {
 }
 
 section#contact form#contactForm ::-webkit-input-placeholder {
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-size: 2rem;
   font-weight: 700;
   color: #f7cbcb;
 }
 
 section#contact form#contactForm :-moz-placeholder {
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-weight: 700;
   color: #f7cbcb;
 }
 
 section#contact form#contactForm ::-moz-placeholder {
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-weight: 700;
   color: #f7cbcb;
 }
 
 section#contact form#contactForm :-ms-input-placeholder {
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-weight: 700;
   color: #f7cbcb;
 }
@@ -11637,7 +11666,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   display: none; /* Initialement caché */
   text-align: center;
   margin-bottom: 20px;
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-size: 18px; /* Taille de police */
   color: #28a745; /* Couleur verte pour succès */
 }
@@ -11675,12 +11704,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   padding: 1.25rem;
   width: 100%;
   transition: border-bottom-color 0.3s;
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-size: 2rem;
 }
 
 .newsletter-form ::-webkit-input-placeholder {
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-size: 3rem; /* Taille de la police du placeholder */
   color: #f7cbcb; /* Couleur du placeholder */
 }
@@ -11709,7 +11738,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .btn-news {
   padding: 10px 20px;
   background-color: #f7cbcb ;
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-size: 3rem;
   font-weight: 700;
   color: #975660;
@@ -11729,32 +11758,32 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #0066cc; /* Changez la couleur de la police ici */
 }
 #successMessage {
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-size: 3rem;
   color: green;
 }
 
 #errorMessage {
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-size: 3rem;
   color: red;
 }
 
 #waitingMessage {
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-size: 3rem;
   color: #f7cbcb;
 }
 
 .invalid-feedback{
-  font-family: "Tangerine", cursive;
+  font-family: 'Argue', serif;
   font-size: 1.7rem;
 }
 
 .footer {
   text-align: center;
   font-size: 0.9rem;
-  font-family: "Tangerine", cursive;
+  font-family: 'Tangerine', serif;
   background-color: #975660;
   color: #f7cbcb;
 }
