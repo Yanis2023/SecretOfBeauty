@@ -11,6 +11,11 @@
 }
 
 @font-face {
+  font-family: 'BristineSignature';
+  src: url('../fonts/BristineSignature.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Cinzel';
   src: url('../fonts/Cinzel-Regular.otf') format('truetype');
 }
@@ -125,7 +130,7 @@ hr {
 }
 
 h1 .h1 {
-  font-family: 'BrittanyAmastry', sans-serif;
+  font-family: 'BristineSignature', sans-serif;
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 700;
@@ -8161,7 +8166,7 @@ textarea.form-control-lg {
   color: #975660 !important;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 15px;
-  font-family: 'Tangerine', serif;
+  font-family: 'BristineSignature', serif;
   font-size: 2.5rem;
 }
 
@@ -10976,7 +10981,7 @@ p {
 
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 1000;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -11007,7 +11012,7 @@ p {
   padding: 1.25rem 2.5rem;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  font-family: 'Argue', serif;
+  font-family: 'BristineSignature', serif;
   font-size: 3rem;
   font-weight: 700;
   background-color: #f1b6b4;
@@ -11057,14 +11062,14 @@ p {
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 2rem;
-  font-family: 'BrittanyAmastry', sans-serif;
+  font-family: 'BristineSignature', sans-serif;
   font-weight: 700;
 }
 #mainNav .navbar-brand {
   color: #F9CDCA;
   font-weight: 900; 
   letter-spacing: 0.0625em;
-  font-family: 'BrittanyAmastry', sans-serif;
+  font-family: 'BristineSignature', sans-serif;
   font-size: 2rem;
 }
 #mainNav .navbar-brand img {
@@ -11119,7 +11124,7 @@ p {
 }
 
 header.masthead {
-  font-family: 'BrittanyAmastry', sans-serif;
+  font-family: 'BristineSignature', sans-serif;
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -11135,14 +11140,14 @@ header.masthead .masthead-subheading {
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: 'BrittanyAmastry', sans-serif;
+  font-family: 'BristineSignature', sans-serif;
 }
 header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
-  font-family: 'BrittanyAmastry', sans-serif;
+  font-family: 'BristineSignature', sans-serif;
   color : #f1b6b4;/* couleur du titre page index*/ 
 }
 
@@ -11193,7 +11198,7 @@ header.masthead .masthead-heading {
 #portfolio h2{
   color: #975660;
   margin-top: 1rem;
-  font-size: 6.5rem;
+  font-size: 3rem;
 }
 
 #portfolio h3{
@@ -11201,7 +11206,7 @@ header.masthead .masthead-heading {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 15px;
   margin-top: 2rem;
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 #portfolio h4{
@@ -11210,7 +11215,7 @@ header.masthead .masthead-heading {
   border-radius: 15px;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 #portfolio .card-item{
@@ -11327,7 +11332,7 @@ header.masthead .masthead-heading {
 #about h2{
   color: #975660;
   margin-top: 1rem;
-  font-size: 6.5rem;
+  /* font-size: 3rem; */
 }
 
 #about h3{
@@ -11342,7 +11347,7 @@ header.masthead .masthead-heading {
   color: #975660;
   margin-top: 0.5rem;
   margin-top: 1rem;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 #about p{
@@ -11351,6 +11356,7 @@ header.masthead .masthead-heading {
   color: #975660 !important;
   margin-top: 0.5rem;
   margin-top: 1rem;
+  font-size: 1.75rem;
 }
 
 .timeline {
@@ -11527,7 +11533,7 @@ header.masthead .masthead-heading {
 } */
 
 #section-heading-custom {
-  font-size: 4rem;
+  font-size: 2rem;
   margin-bottom: 4rem;
 }
 
