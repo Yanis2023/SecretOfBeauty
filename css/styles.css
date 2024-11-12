@@ -11,6 +11,11 @@
 }
 
 @font-face {
+  font-family: 'Serathine';
+  src: url('../fonts/Serathine.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'BristineSignature';
   src: url('../fonts/BristineSignature.ttf') format('truetype');
 }
@@ -130,7 +135,7 @@ hr {
 }
 
 h1 .h1 {
-  font-family: 'BristineSignature', sans-serif;
+  font-family: 'Serathine', sans-serif;
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 700;
@@ -8166,7 +8171,7 @@ textarea.form-control-lg {
   color: #975660 !important;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 15px;
-  font-family: 'BristineSignature', serif;
+  font-family: 'Tangerine', serif;
   font-size: 2.5rem;
 }
 
@@ -11012,7 +11017,7 @@ p {
   padding: 1.25rem 2.5rem;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  font-family: 'BristineSignature', serif;
+  font-family: 'Serathine', serif;
   font-size: 3rem;
   font-weight: 700;
   background-color: #f1b6b4;
@@ -11062,15 +11067,15 @@ p {
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 2rem;
-  font-family: 'BristineSignature', sans-serif;
+  font-family: 'Serathine', sans-serif;
   font-weight: 700;
 }
 #mainNav .navbar-brand {
   color: #F9CDCA;
   font-weight: 900; 
   letter-spacing: 0.0625em;
-  font-family: 'BristineSignature', sans-serif;
-  font-size: 2rem;
+  font-family: 'Serathine', sans-serif;
+  font-size: 1.5rem;
 }
 #mainNav .navbar-brand img {
   height: 1.5rem;
@@ -11124,7 +11129,7 @@ p {
 }
 
 header.masthead {
-  font-family: 'BristineSignature', sans-serif;
+  font-family: 'Serathine', sans-serif;
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -11140,14 +11145,14 @@ header.masthead .masthead-subheading {
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: 'BristineSignature', sans-serif;
+  font-family: 'Serathine', sans-serif;
 }
 header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
-  line-height: 3.25rem;
+  line-height: 1.5;
   margin-bottom: 2rem;
-  font-family: 'BristineSignature', sans-serif;
+  font-family: 'Serathine', sans-serif;
   color : #f1b6b4;/* couleur du titre page index*/ 
 }
 
@@ -11182,9 +11187,10 @@ header.masthead .masthead-heading {
   header.masthead .masthead-heading {
     font-size: 5rem;
     font-weight: 700;
-    line-height: 4.5rem;
+    line-height: 1.5;
     margin-top: 4rem;
     margin-bottom: 4rem;
+    margin-right: 1rem;
   }
 }
 #portfolio {
@@ -11227,6 +11233,43 @@ header.masthead .masthead-heading {
   overflow: hidden; /* Assurez-vous que les coins arrondis s'appliquent correctement aux images et au contenu */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optionnel : ajoute une ombre pour un meilleur effet visuel */
 }
+
+.portfolio-card1 {
+  border-radius: 33% 67% 88% 12% / 44% 100% 0% 56%; /* Ajustez cette valeur pour plus ou moins d'arrondi */
+  overflow: hidden; /* Assurez-vous que les coins arrondis s'appliquent correctement aux images et au contenu */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optionnel : ajoute une ombre pour un meilleur effet visuel */
+}
+
+.portfolio-card2 {
+  border-radius: 73% 27% 15% 85% / 100% 46% 54% 0%; /* Ajustez cette valeur pour plus ou moins d'arrondi */
+  overflow: hidden; /* Assurez-vous que les coins arrondis s'appliquent correctement aux images et au contenu */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optionnel : ajoute une ombre pour un meilleur effet visuel */
+}
+
+.portfolio-card3 {
+  border-radius: 49% 51% 54% 46% / 100% 100% 0% 0%; /* Ajustez cette valeur pour plus ou moins d'arrondi */
+  overflow: hidden; /* Assurez-vous que les coins arrondis s'appliquent correctement aux images et au contenu */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optionnel : ajoute une ombre pour un meilleur effet visuel */
+}
+
+.portfolio-card4 {
+  border-radius: 100% 0% 0% 100% / 100% 41% 59% 0%; /* Ajustez cette valeur pour plus ou moins d'arrondi */
+  overflow: hidden; /* Assurez-vous que les coins arrondis s'appliquent correctement aux images et au contenu */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optionnel : ajoute une ombre pour un meilleur effet visuel */
+}
+
+.portfolio-card5 {
+  border-radius: 0% 100% 100% 0% / 39% 100% 0% 61%; /* Ajustez cette valeur pour plus ou moins d'arrondi */
+  overflow: hidden; /* Assurez-vous que les coins arrondis s'appliquent correctement aux images et au contenu */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optionnel : ajoute une ombre pour un meilleur effet visuel */
+}
+
+.portfolio-card6 {
+  border-radius: 0% 100% 78% 22% / 0% 76% 24% 100%; /* Ajustez cette valeur pour plus ou moins d'arrondi */
+  overflow: hidden; /* Assurez-vous que les coins arrondis s'appliquent correctement aux images et au contenu */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optionnel : ajoute une ombre pour un meilleur effet visuel */
+}
+
 
 .portfolio-card img {
   border-top-left-radius: 15px; /* Arrondir l'angle supérieur gauche */
@@ -11744,7 +11787,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .btn-news {
   padding: 10px 20px;
   background-color: #f7cbcb ;
-  font-family: 'Argue', serif;
+  font-family: 'Serathine', serif;
   font-size: 3rem;
   font-weight: 700;
   color: #975660;
