@@ -277,11 +277,11 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color: #290e0a;
   text-decoration: underline;
 }
 a:hover {
-  color: var(--bs-link-hover-color);
+  color: #bc8682;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -1791,6 +1791,12 @@ progress {
   vertical-align: bottom;
 }
 
+.table-invisible-horaires td {
+    padding: 6px 20px;
+    font-size: 1.25rem;
+
+}
+
 .table-group-divider {
   border-top: 2px solid currentcolor;
 }
@@ -3175,13 +3181,14 @@ textarea.form-control-lg {
 }
 
 .btn-custom{
-  color: #975660;
-  background-color: #f1b6b4;
+  color: #C8B2BF;
+  background-color: #290e0a;
 }
 
 .btn-custom:hover {
-  color: #f1b6b4;
-  background-color: #532d2d;
+  color: #290e0a;
+  background-color: #C8B2BF;
+  border: 1px solid #290e0a;
 }
 
 .fade {
@@ -3825,7 +3832,7 @@ textarea.form-control-lg {
 }
 
 .custom-navbar {
-  background-color: #975660 !important;
+  background-color: linear-gradient(135deg, #e9e7ea 0%, #C8B2BF 100%); !important;
 }
 
 
@@ -3869,11 +3876,11 @@ textarea.form-control-lg {
 
 .navbar-toggler {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
-  font-size: var(--bs-navbar-toggler-font-size);
+  /* font-size: var(--bs-navbar-toggler-font-size); */
   line-height: 1;
-  color: #f7cbcb;
+  color: #290e0a;
   background-color: transparent;
-  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+  border: 1px solid transparent;
   border-radius: var(--bs-navbar-toggler-border-radius);
   transition: var(--bs-navbar-toggler-transition);
 }
@@ -3888,7 +3895,7 @@ textarea.form-control-lg {
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
-  box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);
+  border: 1px solid #290e0a;
 }
 
 .navbar-toggler-icon {
@@ -5364,7 +5371,7 @@ textarea.form-control-lg {
   width: 100%;
   color: var(--bs-modal-color);
   pointer-events: auto;
-  background-image: url('../assets/img/bg-marbre.jpg');
+  background: linear-gradient(135deg, #e9e7ea 0%, #C8B2BF 100%);
   background-clip: padding-box;
   border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
   border-radius: var(--bs-modal-border-radius);
@@ -6796,11 +6803,11 @@ textarea.form-control-lg {
 }
 
 .link-dark {
-  color: #f7cbcb !important;
+  color: #290e0a !important;
   font-size: 2rem;
 }
 .link-dark:hover, .link-dark:focus {
-  color: #f1b6b4 !important;
+  color: #bc8682 !important;
 }
 
 .ratio {
@@ -7666,6 +7673,9 @@ textarea.form-control-lg {
 .mt-5 {
   margin-top: 3rem !important;
 }
+.mt-6 {
+  margin-top: 16rem !important;
+}
 
 .mt-auto {
   margin-top: auto !important;
@@ -7716,11 +7726,19 @@ textarea.form-control-lg {
 }
 
 .mb-4 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .mb-5 {
   margin-bottom: 3rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 4rem !important;
+}
+
+.mb-7 {
+  margin-bottom: 6rem !important;
 }
 
 .mb-auto {
@@ -8088,23 +8106,23 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   /* --bs-text-opacity: 1; */
-  color: #f1b6b4 !important;
+  color: transparent !important;
 }
 
 .fa-plus{
-  color: #975660;
+  color: #290e0a;
 }
 
 .fa-award{
-  color: #975660;
+  color: #290e0a;
 }
 
 .fa-earth-americas{
-  color: #975660;
+  color: #290e0a;
 }
 
 .fa-wand-magic-sparkles{
-  color: #975660;
+  color: #290e0a;
 }
 
 .text-secondary {
@@ -8177,23 +8195,23 @@ textarea.form-control-lg {
 
 .text-card {
   --bs-text-opacity: 1;
-  color: #975660 !important;
-  font-family: 'Argue', serif;
-  font-size: 2rem;
+  color: #290e0a !important;
+  font-family: 'tangerine', serif;
+  font-size: 2.5rem;
 }
 
 .text-produits {
   --bs-text-opacity: 1;
-  color: #975660 !important;
-  font-family: 'Argue', serif;
+  color: #290e0a !important;
+  font-family: 'tangerine', serif;
   font-size: 3rem;
+  text-align: center;
 }
 
 .text-modal-p {
   --bs-text-opacity: 1;
-  background-color: rgba(255, 255, 255, 0.5);
-  color: #975660 !important;
-  font-family: 'Argue', serif;
+  color: #290e0a !important;
+  font-family: 'tangerine', serif;
   font-size: 4rem;
 }
 
@@ -10936,7 +10954,7 @@ html {
 
 body {
   position: relative;
-  background-color: black;
+  background: linear-gradient(135deg, #e9e7ea 0%, #C8B2BF 100%);
 }
 
 p {
@@ -10978,7 +10996,7 @@ p {
 
 .page-section {
   padding: 6rem 0;
-  background-image: url('../assets/img/bg-marbre.jpg');
+  background: linear-gradient(135deg, #e9e7ea 0%, #C8B2BF 100%);
   background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la zone */
   background-position: center; /* Positionne l'image au centre */
   background-repeat: no-repeat; /* Empêche la répétition de l'image */
@@ -11014,28 +11032,44 @@ p {
   }
 }
 .btn-xl {
-  padding: 1.25rem 2.5rem;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-  font-family: 'Serathine', serif;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-family:'Tangerine', serif;
   font-size: 3rem;
-  font-weight: 700;
-  background-color: #f1b6b4;
-  color: #975660;
-  border-color: #975660;
+  /* font-weight: 700; */
+  background-color: #C8B2BF;
+  color: #290e0a;
+  border-color: #290e0a;
   border: 2px solid;
 }
 
 .btn-xl:hover {
-  background-color:  #975660;
-  border-color: #975660;
-  color: #F9CDCA;
+  background-color: #cebec2;
+  color: #bc8682;
+  border-color: #bc8682;
 }
+
+.btn-xl2 {
+  padding: 1.25rem 2.5rem;
+  font-family:'Tangerine', serif;
+  font-size: 3rem;
+  background-color: #cebec2;
+  color: #bc8682;
+  border-color: #bc8682;
+  border: 2px solid;
+}
+
+.btn-xl2:hover {
+  background-color: #C8B2BF;
+  color: #290e0a;
+  border-color: #290e0a;
+}
+
 
 .btn-xl-contact {
   padding: 1.25rem 2.5rem;
   margin-bottom: 4rem;
-  font-family: 'Argue', serif;
+  font-family: 'tangerine', serif;
   font-size: 3rem;
   font-weight: 700;
   background-color: #f1b6b4;
@@ -11062,58 +11096,59 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color:  #975660;
+  background-color:  linear-gradient(135deg, #e9e7ea 0%, #C8B2BF 100%);;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
-  font-size: 2rem;
-  font-family: 'Serathine', sans-serif;
-  font-weight: 700;
+  font-size: 2.5rem;
+  font-family: 'tangerine', serif;
+  /* font-weight: 700; */
 }
 #mainNav .navbar-brand {
   color: #F9CDCA;
-  font-weight: 900; 
+  /* font-weight: 900;  */
   letter-spacing: 0.0625em;
-  font-family: 'Serathine', sans-serif;
+  font-family: 'tangerine', serif;
   font-size: 1.5rem;
 }
 #mainNav .navbar-brand img {
-  height: 1.5rem;
+  height: 3rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: 'Tangerine', serif;
   font-size: 2.5rem;
-  color: #F9CDCA; /* couleur items navbar */
+  color: #290e0a; /* couleur items navbar */
   /* letter-spacing: 0.0625em; */
 } 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #f1b6b4; /* couleur items navbar hover*/
+  color: #bc8682; /* couleur items navbar hover*/
 }
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    /* padding-top: 1.5rem;
+    padding-bottom: 1.5rem; */
     height: 75px;
     border: none;
-    background-color: transparent;
-    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    background-color: #C8B2BF;
+    /* transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out; */
   }
-  #mainNav .navbar-brand {
-    /* font-size: 1.5em; */
+  /* #mainNav .navbar-brand {
+    font-size: 1.5em;
     transition: font-size 0.3s ease-in-out;
-  }
+  } */
   #mainNav .navbar-brand img {
-    height: 2rem;
-    transition: height 0.3s ease-in-out;
+    height: 3rem;
+    /* transition: height 0.3s ease-in-out; */
   }
-  #mainNav.navbar-shrink {
+  /* #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
     height: 75px;
-    background-color: #975660; /* color bacground navbar */
-  }
-  #mainNav.navbar-shrink .navbar-brand {
+    background-color: linear-gradient(135deg, #e9e7ea 0%, #C8B2BF 100%); 
+    color bacground navbar 
+  } */
+  /* #mainNav.navbar-shrink .navbar-brand {
     font-size: 2em;
   }
   #mainNav.navbar-shrink .navbar-brand svg,
@@ -11125,16 +11160,60 @@ p {
   }
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
-  } 
+  }  */
+}
+.portfolio-logo {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    #mainNav {
+      background-color: #C8B2BF;
+    }
+      #contact .masthead-subheading {
+      background-color: rgba(255, 255, 255, 0.4);
+      border-radius: 0.375rem;
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+    }
+}
+@media (max-width: 576px) {
+    #mainNav {
+      background-color: #C8B2BF;
+      margin-bottom: 3rem;
+    }
+    #mainNav .navbar-brand img{
+      height: 2rem;
+    }
+    #mainNav .navbar-toggler{
+      font-size: 2rem;
+    }
+    #portfolio .portfolio-logo img{
+      max-width: 250px;
+      margin-bottom: 0.5rem;
+      /* padding-top: 5rem; */
+    }
+    #portfolio .portfolio-logo-text {
+      max-width: 220px;
+    }
+      #contact .masthead-subheading {
+      background-color: rgba(255, 255, 255, 0.4);
+      border-radius: 0.375rem;
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+    }
 }
 
 header.masthead {
-  font-family: 'Serathine', sans-serif;
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  font-family: 'Cinzel', serif;
+  padding-top: 6rem;
+  padding-bottom: 1.5rem;
   text-align: center;
-  /* color: #fff; */
-  background-image: url("../assets/img/bg2.jpg");
+  color: #290e0a;
+  background: linear-gradient(135deg, #e9e7ea 0%, #C8B2BF 100%);
+  /* background-image: url("../assets/img/bg2.jpg"); */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11142,86 +11221,125 @@ header.masthead {
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
-  font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: 'Serathine', sans-serif;
+  font-family: 'Cinzel', serif;
 }
+header.masthead .masthead-subheading2 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: 'Cinzel', serif;
+}
+header.masthead .masthead-subheading3 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Cinzel', serif;
+}
+header.masthead .masthead-subheading4 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-bottom: 20px;
+  font-family: 'Cinzel', serif;
+}
+header.masthead .masthead-subheading5 {
+  font-size: 3rem;
+  margin-bottom: 25px;
+  font-family: 'tangerine', serif;
+}
+
 header.masthead .masthead-heading {
   font-size: 3.25rem;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.5;
   margin-bottom: 2rem;
-  font-family: 'Serathine', sans-serif;
-  color : #f1b6b4;/* couleur du titre page index*/ 
+  font-family: 'Cinzel', serif;
+  color : #290e0a;/* couleur du titre page index*/ 
+}
+
+.banniere {
+
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  /* height: 500px;   */
+  /* object-fit: cover; Pour s'assurer que l'image s'ajuste bien à l'intérieur du cercle */
+  /* margin-bottom: 1rem; */
 }
 
 .rounded-image {
-  width: 300px;  /* Ajustez la taille selon vos besoins */
-  height: 300px; /* Ajustez la taille selon vos besoins */
-  border-radius: 50%; /* Pour faire l'image ronde */
+  width: 700px;  /* Ajustez la taille selon vos besoins */
+  height: 600px; /* Ajustez la taille selon vos besoins */
+  object-fit: cover; /* Pour s'assurer que l'image s'ajuste bien à l'intérieur du cercle */
+  margin-bottom: 7rem;
+  margin-top: 3rem;
+}
+.rounded-image2 {
+  width: 600px;  /* Ajustez la taille selon vos besoins */
+  height: 600px; /* Ajustez la taille selon vos besoins */
   object-fit: cover; /* Pour s'assurer que l'image s'ajuste bien à l'intérieur du cercle */
   margin-bottom: 7rem;
   margin-top: 3rem;
 }
 
-.rounded-image2 {
-  width: 300px;  /* Ajustez la taille selon vos besoins */
-  height: 300px; /* Ajustez la taille selon vos besoins */
-  border-radius: 50%; /* Pour faire l'image ronde */
-  object-fit: cover; /* Pour s'assurer que l'image s'ajuste bien à l'intérieur du cercle */
-  margin-top: 2rem;
-}
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 10rem;
-    padding-bottom: 12.5rem;
+    /* padding-top: 10rem;
+    padding-bottom: 8rem; */
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
-    font-style: italic;
     line-height: 2.25rem;
-    margin-bottom: 2rem;
+    margin-top: 30px;
   }
+  
   header.masthead .masthead-heading {
     font-size: 5rem;
-    font-weight: 700;
     line-height: 1.5;
-    margin-top: 4rem;
+    /* margin-top: 4rem;
     margin-bottom: 4rem;
-    margin-right: 1rem;
+    margin-right: 1rem; */
+  }
+  section#contact{
+    color : white;
   }
 }
 #portfolio {
-  background-image: url('../assets/img/bg-marbre.jpg');
+  background: linear-gradient(135deg, #e9e7ea 0%, #C8B2BF 100%);
   background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la zone */
   background-position: center; /* Positionne l'image au centre */
   background-repeat: no-repeat; /* Empêche la répétition de l'image */
   padding: 80px 0; /* Ajoutez du padding si nécessaire pour espacer le contenu */
 }
 
-#portfolio h2{
-  color: #975660;
+#portfolio .title-portfolio{
+  color: #290e0a;
   margin-top: 1rem;
-  font-size: 3rem;
+  font-size: 36px;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  color: #290e0a;
 }
 
 #portfolio h3{
-  color: #df8885;
+  color: #290e0a;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 15px;
   margin-top: 2rem;
   font-size: 2rem;
 }
 
-#portfolio h4{
-  color: #975660;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 15px;
+#portfolio .p-portfolio{
+  color: #290e0a;
+  font-family: 'tangerine', serif;
+  /* border-radius: 24px; */
   margin-bottom: 1rem;
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 #portfolio .card-item{
@@ -11294,7 +11412,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #f1b6b4;
+  background: #C8B2BF;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -11309,18 +11427,21 @@ header.masthead .masthead-heading {
 }
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;      /* centrage vertical */
+  justify-content: center;  /* centrage horizontal */
   text-align: center;
-  background-color: #f1b6b4;
+  background-color: #C8B2BF;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
-  font-family: 'Argue', serif;
-  font-weight: 700;
+  font-family: 'tangerine', serif;
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
-  font-family: 'Argue', serif;
+  font-family: 'tangerine', serif;
 }
 
 .portfolio-modal .modal-dialog {
@@ -11333,8 +11454,10 @@ header.masthead .masthead-heading {
   text-align: center;
 }
 .portfolio-modal .modal-content h1 {
-  font-size: 6rem;
-  color: #975660;
+  font-size: 36px;
+  font-family: 'Cinzel', serif;
+  font-weight: 100;
+  color: #290e0a;
 }
 
 .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
@@ -11346,7 +11469,7 @@ header.masthead .masthead-heading {
 .portfolio-modal .modal-content p.item-intro {
   font-style: italic;
   margin-bottom: 2rem;
-  font-family: 'Argue', serif;
+  font-family: 'tangerine', serif;
 }
 
 .portfolio-modal .modal-content p {
@@ -11372,19 +11495,48 @@ header.masthead .masthead-heading {
   opacity: 0.3;
 }
 
+#about {
+  background: linear-gradient(135deg, #e9e7ea 0%, #C8B2BF 100%);
+  background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la zone */
+  background-position: center; /* Positionne l'image au centre */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+  padding: 80px 0; /* Ajoutez du padding si nécessaire pour espacer le contenu */
+}
+
+#about  .title-about{
+  color: #290e0a;
+  margin-top: 1rem;
+  font-size: 36px;
+  font-family: 'Cinzel', serif;
+  font-weight: 100;
+  text-align: center;
+  color: #290e0a;
+}
+
+#about  h3{
+  color: #290e0a;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+#about .p-about{
+  color: #290e0a;
+  font-family: 'tangerine', serif;
+  /* border-radius: 24px; */
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 3rem;
+}
+
 #about h2{
-  color: #975660;
+  color: #290e0a;
   margin-top: 1rem;
   /* font-size: 3rem; */
 }
 
-#about h3{
-  color: #975660 !important;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 15px;
-  margin-top: 2rem;
-  /* font-size: 4rem; */
-}
+
 
 #about h4{
   color: #975660;
@@ -11393,14 +11545,6 @@ header.masthead .masthead-heading {
   font-size: 2rem;
 }
 
-#about p{
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 15px;
-  color: #975660 !important;
-  margin-top: 0.5rem;
-  margin-top: 1rem;
-  font-size: 1.75rem;
-}
 
 .timeline {
   position: relative;
@@ -11569,35 +11713,10 @@ header.masthead .masthead-heading {
     padding: 0 100px 20px 20px;
   }
 }
-/* 
-#team {
-  background-color: #FDE5E4;
-  padding: 80px 0;
-} */
-
-#section-heading-custom {
-  font-size: 2rem;
-  margin-bottom: 4rem;
-}
 
 .section{
   margin-bottom: 0px;
 }
-
-/* #team h2 {
-  color: #df8885;
-  font-size: 6rem;
-}
-
-#team h3 {
-  color: #FDE5E4;
-  font-size: 5rem;
-}
-
-#team h4 {
-  color: #975660;
-  font-size: 3rem;
-} */
 
 .team-member {
   margin-bottom: 3rem;
@@ -11606,7 +11725,7 @@ header.masthead .masthead-heading {
 .team-member img {
   width: 14rem;
   height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  border: 0.15rem solid #290e0a;
 }
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
@@ -11622,16 +11741,24 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: rgba(33, 37, 41, 10); /* Couleur de fond semi-transparente */
-  background-image: url("../assets/img/bg8.png"); /* Image de fond */
+  background-image: url("../NewAssetSecretOfBeauty/Salon1.jpg"); /* Image de fond */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 80px 0; /* Ajustez le padding selon vos besoins */
-  color: #f7cbcb; /* Couleur du texte */
+  padding-top: 80px; /* Ajustez le padding selon vos besoins */
+  padding-bottom: 10px; /* Ajustez le padding selon vos besoins */
+  color: #290e0a; /* Couleur du texte */
+  font-size: 2.25rem;
+  line-height: 1.5rem;
+  font-family: 'Cinzel', serif;
 }
 
 section#contact .section-heading {
-  color: #f7cbcb; /* Couleur du titre */
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: 'Cinzel', serif;
+  color: #290e0a; /* Couleur du titre */
 }
 
 section#contact form#contactForm .form-group {
@@ -11642,12 +11769,12 @@ section#contact form#contactForm .form-group input,
 section#contact form#contactForm .form-group textarea {
     background-color: rgba(255, 255, 255, 0.2); /* Fond transparent */
     border: none; /* Supprime les bordures par défaut */
-    border-bottom: 1px solid #f7cbcb; /* Bordure inférieure */
-    color: #f7cbcb; /* Couleur du texte */
+    border-bottom: 1px solid #290e0a; /* Bordure inférieure */
+    color: #290e0a; /* Couleur du texte */
     padding: 1.25rem; /* Espacement à l'intérieur des inputs */
     width: 100%; /* Largeur des inputs */
     transition: border-bottom-color 0.3s, background-color 0.3s, color 0.3s; /* Transition de couleur de la bordure inférieure */
-    font-family: 'Argue', serif; /* Police de caractères */
+    font-family: 'tangerine', serif; /* Police de caractères */
     font-size: 2rem; /* Taille de la police */
 }
 
@@ -11681,33 +11808,33 @@ section#contact form#contactForm .form-group textarea {
 }
 
 section#contact form#contactForm .form-control:focus {
-  border-bottom-color: #be3d3d; /* Couleur du border-bottom en focus */
+  border-bottom-color: #f7cbcb; /* Couleur du border-bottom en focus */
   box-shadow: none;
 }
 
 section#contact form#contactForm ::-webkit-input-placeholder {
-  font-family: 'Argue', serif;
+  font-family: 'tangerine', serif;
   font-size: 2rem;
-  font-weight: 700;
-  color: #f7cbcb;
+  /* font-weight: 700; */
+  color: #290e0a;
 }
 
 section#contact form#contactForm :-moz-placeholder {
-  font-family: 'Argue', serif;
-  font-weight: 700;
+  font-family: 'tangerine', serif;
+  /* font-weight: 700; */
   color: #f7cbcb;
 }
 
 section#contact form#contactForm ::-moz-placeholder {
-  font-family: 'Argue', serif;
-  font-weight: 700;
-  color: #f7cbcb;
+  font-family: 'tangerine', serif;
+  /* font-weight: 700; */
+  color: #290e0a;
 }
 
 section#contact form#contactForm :-ms-input-placeholder {
-  font-family: 'Argue', serif;
-  font-weight: 700;
-  color: #f7cbcb;
+  font-family: 'tangerine', serif;
+  /* font-weight: 700; */
+  color: #290e0a;
 }
 
 /* Pour le message de succès */
@@ -11715,7 +11842,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   display: none; /* Initialement caché */
   text-align: center;
   margin-bottom: 20px;
-  font-family: 'Argue', serif;
+  font-family: 'tangerine', serif;
   font-size: 18px; /* Taille de police */
   color: #28a745; /* Couleur verte pour succès */
 }
@@ -11730,37 +11857,31 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .newsletter-form {
-  background-color: rgba(255, 255, 255, 0.2); 
+  /* background-color: rgba(255, 255, 255, 0.2);  */
   padding: 20px;
-  max-width: 600px;
   margin: 0 auto;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   margin-top: 3rem;
 }
 
-.newsletter-form h2 {
-  margin-top: 0;
-  color: #f7cbcb;
-  font-size: 3rem;
-}
 
 .form-control.newsletter-input {
   background-color: rgba(255, 255, 255, 0.2);
   border: none;
-  border-bottom: 1px solid #f7cbcb;
+  border-bottom: 1px solid #290e0a;
   color: #f7cbcb;
   padding: 1.25rem;
   width: 100%;
   transition: border-bottom-color 0.3s;
-  font-family: 'Argue', serif;
+  font-family: 'tangerine', serif;
   font-size: 2rem;
 }
 
 .newsletter-form ::-webkit-input-placeholder {
-  font-family: 'Argue', serif;
+  font-family: 'tangerine', serif;
   font-size: 3rem; /* Taille de la police du placeholder */
-  color: #f7cbcb; /* Couleur du placeholder */
+  color: #290e0a; /* Couleur du placeholder */
 }
 
 .form-group {
@@ -11786,57 +11907,57 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .btn-news {
   padding: 10px 20px;
-  background-color: #f7cbcb ;
-  font-family: 'Serathine', serif;
+  background-color: #cebec2;
+  font-family: 'tangerine', serif;
   font-size: 3rem;
   font-weight: 700;
-  color: #975660;
+  color: #bc8682;
   border: none;
-  border-color: #975660;
+  border-color: #bc8682;
   border-radius: 3px;
   cursor: pointer;
   margin-left: 10px;
 }
 
 .btn-news:hover {
-  background-color: #975660;
+  background-color: #cebec2;
 }
 
 .newsletter-heading {
-  font-size: 24px; /* Changez la taille de la police ici */
-  color: #0066cc; /* Changez la couleur de la police ici */
+  font-size: 36px; /* Changez la taille de la police ici */
+  color: #290e0a; /* Changez la couleur de la police ici */
 }
 #successMessage {
-  font-family: 'Argue', serif;
+  font-family: 'tangerine', serif;
   font-size: 3rem;
   color: green;
 }
 
 #errorMessage {
-  font-family: 'Argue', serif;
+  font-family: 'tangerine', serif;
   font-size: 3rem;
   color: red;
 }
 
 #waitingMessage {
-  font-family: 'Argue', serif;
+  font-family: 'tangerine', serif;
   font-size: 3rem;
   color: #f7cbcb;
 }
 
 .invalid-feedback{
-  font-family: 'Argue', serif;
+  font-family: 'tangerine', serif;
   font-size: 1.7rem;
 }
 
 .footer {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 2rem;
   font-family: 'Tangerine', serif;
-  background-color: #975660;
-  color: #f7cbcb;
+  background-color: #C8B2BF;
+  color: #290e0a;
 }
 
 .footer-link{
-  color: #f7cbcb;
+  color: #290e0a;
 }

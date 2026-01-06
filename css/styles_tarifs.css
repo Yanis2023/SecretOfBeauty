@@ -1,29 +1,11 @@
-header.masthead-tarif {
-    padding-top: 10.5rem;
-    padding-bottom: 2rem;
-    text-align: center;
-    background-image: url("../assets/img/tarif-image-bg.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-}
-
-header.masthead-tarif .masthead-subheading {
-    font-size: 1.5rem;
-    font-style: italic;
-    line-height: 1.5rem;
-    margin-bottom: 25px;
-    font-family: "Serathine", cursive;
-}
-
-header.masthead-tarif .masthead-heading {
-    font-size: 6rem;
-    font-weight: 700;
-    line-height: 3.25rem;
-    margin-bottom: 2rem;
-    font-family: "Serathine", cursive;
-    color: #f1b6b4; /* couleur du titre page index */
+#section-tarifs  .title-tarifs{
+  color: #290e0a;
+  margin-top: 1rem;
+  font-size: 36px;
+  font-family: 'Cinzel', serif;
+  font-weight: 100;
+  text-align: center;
+  color: #290e0a;
 }
 
 @media (min-width: 768px) {
@@ -45,9 +27,6 @@ header.masthead-tarif .masthead-heading {
     }
 }
 
-#section-tarifs{
-    background-color: black !important;
-}
 
 .logo-tarif {
     margin-bottom: 2rem;
@@ -71,17 +50,12 @@ header.masthead-tarif .masthead-heading {
 }
 
 .table-invisible td {
-    font-family: "Tangerine", cursive;
-    font-size: 2.5rem;
-    color: #f1b6b4; /* couleur des cellules */
+  color: #290e0a !important;
+  font-family: 'tangerine', serif;
+  font-size: 3rem;
+  text-align: center;
 }
 
-.title {
-    text-align: center;
-    margin-bottom: 1rem;
-    font-size: 4rem; /* taille du titre */
-    color: #f1b6b4; /* couleur du titre */
-}
 
 .section {
     margin-bottom: 7rem; /* Ajoute de l'espace entre les sections */
