@@ -23,10 +23,8 @@
         font-size: 6rem;
         font-weight: 700;
         line-height: 4.5rem;
-        /* margin-bottom: 10rem; */
     }
 }
-
 
 .logo-tarif {
     margin-bottom: 2rem;
@@ -56,14 +54,6 @@
   text-align: center;
 }
 
-
 .section {
     margin-bottom: 7rem; /* Ajoute de l'espace entre les sections */
 }
-
-/* .card-tarif {
-    background-color: rgba(255, 255, 255, 0.1); Couleur de fond semi-transparente
-    border-radius: 15px; Facultatif : arrondir les angles pour un meilleur effet visuel
-    padding: 20px; Facultatif : ajouter du padding pour un meilleur espacement intérieur
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Facultatif : ajouter une ombre pour un effet visuel
-} */
