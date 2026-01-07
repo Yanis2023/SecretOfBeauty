@@ -8,6 +8,10 @@
   color: #290e0a;
 }
 
+.page-section#tarif{
+
+}
+
 @media (min-width: 768px) {
     header.masthead-tarif {
         padding-top: 10rem;
