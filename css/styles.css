@@ -11298,7 +11298,7 @@ buton
 }
 
 header.masthead {
-  font-family: 'Cinzel', serif;
+  font-family: 'Playfair Display';
   padding-top: 6rem;
   padding-bottom: 1.5rem;
   text-align: center;
@@ -11314,7 +11314,7 @@ header.masthead .masthead-subheading {
   font-size: 1.5rem;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Playfair Display';
   font-weight: 100;
 }
 
@@ -11556,7 +11556,7 @@ header.masthead .masthead-heading {
 
 .portfolio-modal .modal-content h1 {
   font-size: 36px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Playfair Display';
   font-weight: 100;
   color: #290e0a;
 }
