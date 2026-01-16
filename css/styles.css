@@ -31,8 +31,13 @@
 }
 
 @font-face {
-  font-family: 'Argue';
-  src: url('../fonts/Argue.otf') format('truetype');
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-Black.woff2') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.woff2') format('truetype');
 }
 
 :root {
@@ -6841,7 +6846,7 @@ textarea.form-control-lg {
 
 .link-dark {
   color: #290e0a !important;
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 .link-dark:hover, .link-dark:focus {
   color: #bc8682 !important;
@@ -9974,7 +9979,7 @@ textarea.form-control-lg {
   }
   .text-lg-start {
     text-align: left !important;
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
   .text-lg-end {
     text-align: right !important;
@@ -11072,8 +11077,8 @@ body {
 .btn-xl {
   margin-top: 1rem;
   margin-bottom: 2rem;
-  font-family:'Tangerine', serif;
-  font-size: 3rem;
+  font-family: 'Poppins';
+  font-size: 1.5rem;
   background-color: #C8B2BF;
   color: #290e0a;
   border-color: #290e0a;
@@ -11138,7 +11143,7 @@ body {
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 2.5rem;
-  font-family: 'tangerine', serif;
+  font-family: 'Poppins';
 }
 
 #mainNav .navbar-brand {
@@ -11153,8 +11158,8 @@ body {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: 'Tangerine', serif;
-  font-size: 2.5rem;
+  font-family: 'Poppins';
+  font-size: 1.25rem;
   color: #290e0a; /* couleur items navbar */
 } 
 
@@ -11320,29 +11325,28 @@ header.masthead .masthead-subheading {
 
 header.masthead .masthead-subheading2 {
   font-size: 1.25rem;
-  line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Poppins';
 }
 
 header.masthead .masthead-subheading3 {
   font-size: 1.25rem;
   line-height: 1.5rem;
   margin-bottom: 10px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Playfair Display';
 }
 
 header.masthead .masthead-subheading4 {
   font-size: 1.25rem;
   line-height: 1.5rem;
   margin-bottom: 20px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Playfair Display';
 }
 
 header.masthead .masthead-subheading5 {
-  font-size: 3rem;
+  font-size: 1.25rem;
   margin-bottom: 25px;
-  font-family: 'tangerine', serif;
+  font-family: 'Poppins';
 }
 
 header.masthead .masthead-heading {
@@ -11867,14 +11871,14 @@ section#contact {
   color: #290e0a; /* Couleur du texte */
   font-size: 2.25rem;
   line-height: 1.5rem;
-  font-family: 'Cinzel', serif;
+  font-family: 'Playfair Display';
 }
 
 section#contact .section-heading {
   font-size: 1.5rem;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Playfair Display';
   color: #290e0a; /* Couleur du titre */
 }
 
@@ -11891,8 +11895,8 @@ section#contact form#contactForm .form-group textarea {
     padding: 1.25rem; /* Espacement à l'intérieur des inputs */
     width: 100%; /* Largeur des inputs */
     transition: border-bottom-color 0.3s, background-color 0.3s, color 0.3s; /* Transition de couleur de la bordure inférieure */
-    font-family: 'tangerine', serif; /* Police de caractères */
-    font-size: 2rem; /* Taille de la police */
+    font-family: 'Poppins'; /* Police de caractères */
+    font-size: 1rem; /* Taille de la police */
 }
 
 /* Styles pour les champs remplis automatiquement */
@@ -11930,23 +11934,23 @@ section#contact form#contactForm .form-control:focus {
 }
 
 section#contact form#contactForm ::-webkit-input-placeholder {
-  font-family: 'tangerine', serif;
+  font-family: 'Poppins';
   font-size: 2rem;
   color: #290e0a;
 }
 
 section#contact form#contactForm :-moz-placeholder {
-  font-family: 'tangerine', serif;
+  font-family: 'Poppins';
   color: #f7cbcb;
 }
 
 section#contact form#contactForm ::-moz-placeholder {
-  font-family: 'tangerine', serif;
+  font-family: 'Poppins';;
   color: #290e0a;
 }
 
 section#contact form#contactForm :-ms-input-placeholder {
-  font-family: 'tangerine', serif;
+  font-family: 'Poppins';
   color: #290e0a;
 }
 
@@ -11955,7 +11959,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   display: none; /* Initialement caché */
   text-align: center;
   margin-bottom: 20px;
-  font-family: 'tangerine', serif;
+  font-family: 'Poppins';;
   font-size: 18px; /* Taille de police */
   color: #28a745; /* Couleur verte pour succès */
 }
@@ -11981,16 +11985,17 @@ section#contact form#contactForm :-ms-input-placeholder {
   border: none;
   border-bottom: 1px solid #290e0a;
   color: #f7cbcb;
-  padding: 1.25rem;
+  padding: 1rem;
+  padding-top: 1rem;
   width: 100%;
   transition: border-bottom-color 0.3s;
-  font-family: 'tangerine', serif;
-  font-size: 2rem;
+  font-family: 'Poppins';
+  font-size: 1rem;
 }
 
 .newsletter-form ::-webkit-input-placeholder {
-  font-family: 'tangerine', serif;
-  font-size: 3rem; /* Taille de la police du placeholder */
+  font-family: 'Poppins';
+  font-size: 1rem; /* Taille de la police du placeholder */
   color: #290e0a; /* Couleur du placeholder */
 }
 
@@ -12018,7 +12023,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .btn-news {
   padding: 10px 20px;
   background-color: #cebec2;
-  font-family: 'tangerine', serif;
+  font-family: 'Poppins';
   font-size: 3rem;
   font-weight: 700;
   color: #bc8682;
@@ -12039,32 +12044,32 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 #successMessage {
-  font-family: 'tangerine', serif;
-  font-size: 3rem;
+  font-family: 'Poppins';
+  font-size: 1.25rem;
   color: green;
 }
 
 #errorMessage {
-  font-family: 'tangerine', serif;
-  font-size: 3rem;
+  font-family: 'Poppins';
+  font-size: 1.25rem;
   color: red;
 }
 
 #waitingMessage {
-  font-family: 'tangerine', serif;
-  font-size: 3rem;
+  font-family: 'Poppins';
+  font-size: 1.25rem;
   color: #f7cbcb;
 }
 
 .invalid-feedback{
-  font-family: 'tangerine', serif;
-  font-size: 1.7rem;
+  font-family: 'Poppins';
+  font-size: 1.25rem;
 }
 
 .footer {
   text-align: center;
-  font-size: 2rem;
-  font-family: 'Tangerine', serif;
+  font-family: 'Poppins';
+  font-size: 1rem;
   background-color: #C8B2BF;
   color: #290e0a;
 }
