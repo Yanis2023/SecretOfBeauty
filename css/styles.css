@@ -11180,14 +11180,22 @@ body {
 }
 
 .portfolio-logo-text {
-    width: 350px;   /* augmente ou diminue selon ton besoin */
-    height: auto;   /* garde les proportions */
+    width: 350px;   
+    height: auto;  
 }
 
 .portfolio-logo-nav {
-    width: 200px;   /* augmente ou diminue selon ton besoin */
-    height: auto;   /* garde les proportions */
+    width: 200px; 
+    height: auto;   
     margin-left: 10px;
+}
+
+@media (max-width: 575px){
+  .portfolio-logo-nav {
+    width: 150px; 
+    height: auto;   
+    margin-left: 2px;
+}
 }
 
 
