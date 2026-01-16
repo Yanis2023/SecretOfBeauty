@@ -1,3 +1,9 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const banniere = document.querySelector(".banniere");
+  setTimeout(() => {
+    banniere.classList.add("unfold-active");
+  }, 200);
+});
 
 window.addEventListener('DOMContentLoaded', event => {
 
