@@ -11037,7 +11037,7 @@ body {
 
 .page-section {
   padding: 6rem 0;
-  background: linear-gradient(135deg, #d8ccd4 0%, #C8B2BF 100%);
+  background: white;
   background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la zone */
   background-position: center; /* Positionne l'image au centre */
   background-repeat: no-repeat; /* Empêche la répétition de l'image */
@@ -11303,11 +11303,11 @@ header.masthead {
   padding-bottom: 1.5rem;
   text-align: center;
   color: #290e0a;
-  background: linear-gradient(135deg, #d9cdd5 0%, #C8B2BF 100%);
-  background-repeat: no-repeat;
+  background-color: white;
+  /* background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
+  background-size: cover; */
 }
 
 header.masthead .masthead-subheading {
