@@ -3192,8 +3192,8 @@ textarea.form-control-lg {
   color: #290e0a;
   background-color: #C8B2BF;
   border: 1px solid #290e0a;
-  font-family: 'tangerine', serif;
-  font-size: 2rem;
+  font-family: 'Poppins';
+  font-size: 1.5rem;
 }
 
 .btn-custom:hover {
@@ -8229,7 +8229,7 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: #290e0a !important;
   border-radius: 15px;
-  font-family: 'cinzel', serif;
+  font-family: 'Poppins';
   font-size: 2rem;
   font-weight: 300; 
 }
@@ -8238,7 +8238,7 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: #290e0a !important;
   border-radius: 15px;
-  font-family: 'cinzel', serif;
+  font-family: 'Poppins';
   font-size: 1.5rem;
   font-weight: 300; 
   margin-top: 100px;
@@ -8248,7 +8248,7 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: #290e0a !important;
   border-radius: 15px;
-  font-family: 'cinzel', serif;
+  font-family: 'Poppins';
   font-size: 1rem;
   font-weight: 300;
 }
@@ -8257,7 +8257,7 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: #290e0a !important;
   border-radius: 15px;
-  font-family: 'cinzel', serif;
+  font-family: 'Poppins';
   font-size: 1rem;
   font-weight: 300;
 }
@@ -8265,7 +8265,7 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: #290e0a !important;
   border-radius: 15px;
-  font-family: 'cinzel', serif;
+  font-family: 'Poppins';
   font-size: 1.25rem;
   font-weight: 300;
 }
@@ -8273,22 +8273,22 @@ textarea.form-control-lg {
 .text-card {
   --bs-text-opacity: 1;
   color: #290e0a !important;
-  font-family: 'tangerine', serif;
-  font-size: 2.5rem;
+  font-family: 'Poppins';
+  font-size: 1.5rem;
 }
 
 .text-produits {
   --bs-text-opacity: 1;
   color: #290e0a !important;
-  font-family: 'tangerine', serif;
-  font-size: 3rem;
+  font-family: 'Poppins';
+  font-size: 1.5rem;
   text-align: center;
 }
 
 .text-modal-p {
   --bs-text-opacity: 1;
   color: #290e0a !important;
-  font-family: 'tangerine', serif;
+  font-family: 'Poppins';;
   font-size: 4rem;
 }
 
@@ -11419,7 +11419,7 @@ header.masthead .masthead-heading {
   color: #290e0a;
   margin-top: 1rem;
   font-size: 36px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Playfair Display';
   text-align: center;
   font-weight: 100;
 }
@@ -11434,10 +11434,10 @@ header.masthead .masthead-heading {
 
 #portfolio .p-portfolio{
   color: #290e0a;
-  font-family: 'tangerine', serif;
+  font-family: 'Poppins';
   margin-bottom: 1rem;
   margin-top: 1rem;
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 #portfolio .card-item{
@@ -11537,14 +11537,14 @@ header.masthead .masthead-heading {
 }
 
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 1.5rem;
-  font-family: 'tangerine', serif;
+  font-size: 1rem;
+  font-family: 'Poppins';
   margin-bottom: 0;
 }
 
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
-  font-family: 'tangerine', serif;
+  font-family: 'Poppins';
 }
 
 .portfolio-modal .modal-dialog {
@@ -11616,7 +11616,7 @@ header.masthead .masthead-heading {
   color: #290e0a;
   margin-top: 1rem;
   font-size: 36px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Playfair Display';
   font-weight: 100;
   text-align: center;
   color: #290e0a;
