@@ -11076,14 +11076,14 @@ body {
 }
 
 .btn-xl {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
   font-family: 'Poppins';
   font-size: 1.5rem;
   background-color: #C8B2BF;
   color: #290e0a;
   border-color: #290e0a;
   border: 1px solid;
+  display: block;        
+  margin: 1rem auto 2rem;
 }
 
 .btn-xl:hover {
@@ -11167,7 +11167,7 @@ body {
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #bc8682; /* couleur items navbar hover*/
 }
-buton
+/* buton
 @media (min-width: 992px) {
   #mainNav {
     height: 75px;
@@ -11177,7 +11177,7 @@ buton
   #mainNav .navbar-brand img {
     height: 3rem;
   }
-}
+} */
 
 .portfolio-logo {
     max-width: 500px;
@@ -11205,7 +11205,8 @@ buton
 
   .btn-xl {
   font-size: 1.25rem;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
+  display: inline-block;
   }
 }
 
@@ -11313,16 +11314,12 @@ header.masthead {
   text-align: center;
   color: #290e0a;
   background-color: white;
-  /* background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover; */
 }
 
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   line-height: 1.5rem;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   font-family: 'Playfair Display';
   font-weight: 100;
 }
@@ -11374,6 +11371,42 @@ header.masthead .masthead-heading {
   transform-origin: center;
   transition: transform 1.2s ease-out;
 }
+/* Bandeau collé sous la navbar */
+.hero-banniere {
+  position: fixed;
+  top: 90px;                 /* hauteur navbar */
+  left: 0;
+  width: 100%;
+  height: 38px;              /* hauteur bandeau */
+  z-index: 1029;
+}
+
+/* Lien = bandeau complet */
+.nav-boutique {
+  display: flex;          
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;             
+  height: 100%;              
+
+  background-color: #A48A9B;
+  color: #000;
+  text-decoration: none;
+
+  font-family: 'Poppins', serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 0.6px;
+  text-decoration: underline;
+  text-underline-offset: 4px; 
+}
+
+/* Hover */
+.nav-boutique:hover {
+  background: #290e0a;
+  color: #C8B2BF;
+}
 
 /* État déplié */
 .banniere.unfold-active {
@@ -11400,7 +11433,7 @@ header.masthead .masthead-heading {
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
     line-height: 2.25rem;
-    margin-top: 30px;
+    margin-top: 50px;
   }
   
   header.masthead .masthead-heading {
@@ -11409,6 +11442,16 @@ header.masthead .masthead-heading {
   }
   section#contact{
     color : white;
+  }
+}
+
+@media (max-width: 576px) {
+  header.masthead .masthead-subheading {
+    line-height: 2.25rem;
+    margin-top: 12rem;
+  }
+    .hero-banniere {
+    top: 84px;   /* hauteur navbar mobile Bootstrap */
   }
 }
 
