@@ -3191,7 +3191,7 @@ textarea.form-control-lg {
 
 .btn-custom{
   color: #290e0a;
-  background-color: #C8B2BF;
+  background: linear-gradient(135deg, #e9e7ea 0%, #C8B2BF 100%);
   border: 1px solid #290e0a;
   font-family: 'Poppins';
   font-size: 1.5rem;
@@ -3199,7 +3199,7 @@ textarea.form-control-lg {
 
 .btn-custom:hover {
   color: #C8B2BF;
-  background-color: #290e0a;
+  background-color: #bc8682;
 }
 
 .fade {
