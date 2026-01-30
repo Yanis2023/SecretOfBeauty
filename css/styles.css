@@ -150,7 +150,7 @@ h1 .h1 {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: 'Cinzel', serif;
+  font-family: 'Playfair Display';
   font-weight: 700;
   line-height: 1.2;
 }
@@ -200,9 +200,10 @@ h6, .h6 {
 }
 
 p {
-  font-family: 'Argue', sans-serif;
+  font-family: 'Poppins';
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 1.25rem;
 }
 
 abbr[title] {
@@ -282,7 +283,7 @@ sup {
 }
 
 a {
-  color: #290e0a;
+  color: white;
   text-decoration: underline;
 }
 a:hover {
@@ -3824,7 +3825,7 @@ textarea.form-control-lg {
 }
 
 .navbar-brand img {
-    height: 50px; /* ajuste selon ton besoin */
+    height: 30px; /* ajuste selon ton besoin */
 }
 
 /* Style général des mots */
@@ -8275,7 +8276,7 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: #290e0a !important;
   font-family: 'Poppins';
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .text-produits {
@@ -11076,18 +11077,20 @@ body {
 }
 
 .btn-xl {
+  width: 300px;
   font-family: 'Poppins';
   font-size: 1.5rem;
-  background-color: #C8B2BF;
+  background: linear-gradient(135deg, #e9e7ea 0%, #C8B2BF 100%);
   color: #290e0a;
   border-color: #290e0a;
   border: 1px solid;
-  display: block;        
-  margin: 1rem auto 2rem;
+  /* display: block; */
+  margin-top: 2rem;        
+  /* margin: 1rem auto 2rem; */
 }
 
 .btn-xl:hover {
-  background-color: #cebec2;
+  background-color: #cab5bf;
   color: #bc8682;
   border-color: #bc8682;
 }
@@ -11138,20 +11141,19 @@ body {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color:  #C8B2BF;
+  background-color:  #e9e6ea;
 }
 
 #mainNav .navbar-toggler {
   padding: 0.75rem;
-  font-size: 2rem;
+  font-size: 20px;
   font-family: 'Poppins';
 }
 
 #mainNav .navbar-brand {
-  color: #F9CDCA;
-  letter-spacing: 0.0625em;
-  font-family: 'tangerine', serif;
-  font-size: 1.5rem;
+  font-family: 'Poppins';
+  font-weight: 10;
+  color: #290e0a;
 }
 
 #mainNav .navbar-brand img {
@@ -11160,8 +11162,8 @@ body {
 
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: 'Poppins';
-  font-size: 1.25rem;
-  color: #290e0a; /* couleur items navbar */
+  font-weight: 10;
+  color: #290e0a;
 } 
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -11205,7 +11207,8 @@ body {
 
   .btn-xl {
   font-size: 1.25rem;
-  margin: 0 auto 20px;
+  margin: 30px auto 20px;
+
   display: inline-block;
   }
 }
@@ -11238,7 +11241,7 @@ body {
     }
     #mainNav .navbar-toggler{
       font-size: 1rem;
-      margin-bottom: 10px;
+      /* margin-bottom: 10px; */
     }
     #portfolio .portfolio-logo img{
       max-width: 250px;
@@ -11359,9 +11362,58 @@ header.masthead .masthead-heading {
   color : #290e0a;/* couleur du titre page index*/ 
 }
 
+.hero-bg {
+    position: relative;
+    background: url("../NewAssetSecretOfBeauty/Salon3.jpg") center / cover no-repeat;
+    padding: 120px 0;
+}
+
+/* assombrit légèrement l’image pour la lisibilité */
+.hero-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.hero-bg .container {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.hero-bg {
+    padding: 120px 0;
+}
+
+.hero-logo {
+    max-width: 320px;
+    width: 100%;
+    border-radius: 20px; /* angles arrondis */
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+
+    animation: slideInLeft 1s ease-out forwards;
+}
+
+/* animation gauche → droite */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+
 .banniere {
   width: 100%;
-  max-width: 1100px;
+  max-width: 200px;
   height: auto;
   display: block;
   margin: 2rem auto;
@@ -11386,14 +11438,11 @@ header.masthead .masthead-heading {
   display: flex;          
   align-items: center;
   justify-content: center;
-
   width: 100%;             
   height: 100%;              
-
-  background-color: #A48A9B;
+  background-color: #dcd1d8;
   color: #000;
   text-decoration: none;
-
   font-family: 'Poppins', serif;
   font-size: 16px;
   font-weight: 100;
@@ -11404,13 +11453,20 @@ header.masthead .masthead-heading {
 
 /* Hover */
 .nav-boutique:hover {
-  background: #290e0a;
-  color: #C8B2BF;
+  background: #cab5bf;
+  color: white;
 }
 
 /* État déplié */
 .banniere.unfold-active {
   transform: scaleX(1);
+}
+
+@media (max-width: 991.98px) {
+  #mainNav .navbar-nav {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
 }
 
 .rounded-image {
@@ -11446,14 +11502,27 @@ header.masthead .masthead-heading {
 }
 
 @media (max-width: 576px) {
+  header.masthead{
+    padding-top: 0;
+  }
   header.masthead .masthead-subheading {
     line-height: 2.25rem;
-    margin-top: 12rem;
+    margin-top: 2rem;
   }
     .hero-banniere {
     top: 84px;   /* hauteur navbar mobile Bootstrap */
   }
+  .rounded-circle2 {
+    width: 300px;
+    height: 300px;
+  }
 }
+
+  .rounded-circle2 {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+  }
 
 #portfolio {
   background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la zone */
@@ -11484,7 +11553,7 @@ header.masthead .masthead-heading {
   font-family: 'Poppins';
   margin-bottom: 1rem;
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 #portfolio .card-item{
@@ -11557,7 +11626,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #C8B2BF;
+  background: #dcd1d8;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -11580,7 +11649,7 @@ header.masthead .masthead-heading {
   align-items: center;      /* centrage vertical */
   justify-content: center;  /* centrage horizontal */
   text-align: center;
-  background-color: #C8B2BF;
+  background-color: #dcd1d8;
 }
 
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
@@ -11590,7 +11659,6 @@ header.masthead .masthead-heading {
 }
 
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
-  font-style: italic;
   font-family: 'Poppins';
 }
 
@@ -11909,7 +11977,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: rgba(33, 37, 41, 10); /* Couleur de fond semi-transparente */
-  background-image: url("../NewAssetSecretOfBeauty/Salon1.jpg"); /* Image de fond */
+  background-image: url("../NewAssetSecretOfBeauty/salon4.jpg"); /* Image de fond */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12117,7 +12185,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-family: 'Poppins';
   font-size: 1rem;
-  background-color: #C8B2BF;
+  background-color: #dcd1d8;
   color: #290e0a;
 }
 
