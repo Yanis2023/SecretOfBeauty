@@ -1,10 +1,10 @@
 {
   "routes": [
-    { "src": "/", "dest": "/index2.html" }
-  ]
-}
-
-{
+    {
+      "src": "/",
+      "dest": "/index2.html"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
