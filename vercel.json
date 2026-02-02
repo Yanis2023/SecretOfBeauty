@@ -3,3 +3,17 @@
     { "src": "/", "dest": "/index2.html" }
   ]
 }
+
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Accept-Ranges",
+          "value": "none"
+        }
+      ]
+    }
+  ]
+}
