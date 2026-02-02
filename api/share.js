@@ -15,7 +15,7 @@ export default function handler(req, res) {
 
   <meta property="og:title" content="Institut de beauté Vegan & Cruelty-Free à Montbert" />
   <meta property="og:description" content="Institut de beauté vegan à Montbert, Secret of Beauty propose des soins éthiques et cruelty-free pour sublimer votre peau." />
-  <meta property="og:image" content="https://secretofbeauty.fr/NewAssetSecretOfBeauty/partageV2.jpg" />
+  <meta property="og:image" content="https://secretofbeauty.fr/NewAssetSecretOfBeauty/partageV3.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:url" content="https://secretofbeauty.fr/api/share" />
