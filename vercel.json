@@ -1,10 +1,15 @@
 {
   "routes": [
     {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
       "src": "/",
       "dest": "/index2.html"
     }
-  ],
+  ]
+,
   "headers": [
     {
       "source": "/(.*)",
