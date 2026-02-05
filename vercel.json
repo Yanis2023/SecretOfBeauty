@@ -1,8 +1,33 @@
 {
+  "redirects": [
+    {
+      "source": "/index2.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/produit2.html",
+      "destination": "/infos-produits",
+      "permanent": true
+    },
+    {
+      "source": "/tarifs2.html",
+      "destination": "/prestations",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/",
       "destination": "/index2.html"
+    },
+    {
+      "source": "/infos-produits",
+      "destination": "/produit2.html"
+    },
+    {
+      "source": "/prestations",
+      "destination": "/tarifs2.html"
     }
   ],
   "headers": [
